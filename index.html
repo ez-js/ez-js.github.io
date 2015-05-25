@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">ez-js</h1>
+  <div class="tagline">{{ site.description }}</div>
+
+  <ul class="point-list">
+    {% for point in site.data.sellingPoints %}
+      <li>
+        <h2>{{ point.title }}</h2>
+        <p>{{ point.blurb | markdownify }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

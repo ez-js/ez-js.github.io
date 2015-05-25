@@ -1,0 +1,13 @@
+# Site settings
+title: ez-js
+email: yourdeveloperfriend@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  The first isomorphic NodeJS web framework
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ez-js.github.io" # the base hostname & protocol for your site
+twitter_username: yourdevfriend
+github_username:  yourdeveloperfriend
+highlighter: pygments
+
+# Build settings
+markdown: kramdown

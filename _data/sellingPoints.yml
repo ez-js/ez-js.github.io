@@ -1,0 +1,16 @@
+- title: Write Once, Run Everywhere
+  blurb: >
+    Common use cases such as routing, user input sanitation and validation,
+    and network requests are only written once and run anywhere.
+- title: Integration made Easy
+  blurb: >
+    Integrates on top of [expressjs](http://expressjs.com/) or [socket.io](http://socket.io/),
+    or create your own integration!
+- title: Separation of Concerns
+  blurb: >
+    Your controller logic won't need to be concerned with how the response
+    is being generated or how the errors are being handled.
+- title: Pick and Choose
+  blurb: >
+    ez-js is split up into ~12 modules, so there's no lockdown into our way of thinking. Use
+    as much or as little as you want!
